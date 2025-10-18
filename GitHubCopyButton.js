@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Github copy clone command button
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  Add a 1-click copy button with the "git clone --recurse-submodules ..." command, after the Code button on the GitHub repository page
 // @author       Poker powered by Copilot
-// @match        https://github.com/*/*
+// @match        https://github.com/*
 // @grant        GM_setClipboard
 // @license      MIT
 // ==/UserScript==
