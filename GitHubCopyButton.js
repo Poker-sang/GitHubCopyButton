@@ -49,7 +49,7 @@
         const cmd = getCloneCmd();
         if (!cmd) return;
 
-        const codeBtn = Array.from(document.getElementsByClassName('prc-Button-ButtonBase-c50BI')).find(
+        const codeBtn = Array.from(document.querySelectorAll('button[class^="prc-Button-ButtonBase-"]')).find(
             btn => btn.textContent.trim() === 'Code'
         );
         if (!codeBtn) return;
